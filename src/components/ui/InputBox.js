@@ -11,7 +11,7 @@ function InputBox(props) {
             value={value}
             onKeyUp={handleKeyUp}
             onChange={handleChange}
-            placeholder="Add New"
+            placeholder="新的事项"
         />
     );
 }

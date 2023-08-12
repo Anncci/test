@@ -10,7 +10,7 @@ export default function Footer(props) {
                 <ButtonWrapper {...props}/>
             </div>
             <div className="pull-left">
-                {`${activeItemCount} items left`}
+                {`${activeItemCount} 剩余事项`}
             </div>
             <div className="pull-right">
                 <Filter {...{filter, changeFilter}}/>

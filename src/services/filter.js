@@ -26,8 +26,8 @@ export function search(list, query) {
 
 export function getOptions() {
     return {
-        [FILTER_ALL]: 'All',
-        [FILTER_ACTIVE]: 'Active',
-        [FILTER_COMPLETED]: 'Completed'
+        [FILTER_ALL]: '全部',
+        [FILTER_ACTIVE]: '未完成',
+        [FILTER_COMPLETED]: '已完成'
     };
 }
